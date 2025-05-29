@@ -1,0 +1,7 @@
+streamlit
+torch
+torchaudio
+speechbrain
+yt-dlp
+ffmpeg-python
+pyngrok
