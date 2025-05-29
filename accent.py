@@ -8,7 +8,7 @@ Original file is located at
 """
 
 # Install needed libraries (run this cell first!)
-!pip install --quiet yt-dlp ffmpeg-python torch torchaudio transformers streamlit speechbrain
+# !pip install --quiet yt-dlp ffmpeg-python torch torchaudio transformers streamlit speechbrain
 
 import os
 import subprocess
