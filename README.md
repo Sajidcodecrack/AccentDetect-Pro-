@@ -35,5 +35,29 @@
 Clone the repository:
 ```bash
 git clone https://github.com/yourusername/AccentDetect-Pro.git
-cd AccentDetect-Pro
+cd AccentDetect-Pro.py
+```
+### Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+3. Running as a Script
+You can use the Jupyter notebook or run the script directly.
 
+```bash
+python accent_detect.py
+```
+# launch the Streamlit app:
+```bash 
+streamlit run app.py
+```
+### Model Details
+### Accent Model: SpeechBrain ECAPA-TDNN for Language ID
+
+Robust, open-source, not fine-tuned for regional English (British/American), but suitable for "English vs. non-English" screening.
+
+Easy to swap for more specific accent classifiers as they become available.
+
+### Audio Extraction: ffmpeg
+
+### UI: Streamlit (simple, fast, Pythonic)
