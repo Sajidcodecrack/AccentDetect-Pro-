@@ -1,6 +1,6 @@
 streamlit
-torch==2.2.2
-torchaudio==2.2.2
-speechbrain==0.5.16
-yt-dlp
+torch
+torchaudio
 ffmpeg-python
+yt-dlp
+speechbrain
